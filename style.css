@@ -1,0 +1,114 @@
+/* Colors and fonts */
+body {
+	background: #dee3e3;
+	color: #3F4045;
+	font-family: Fira Sans, static;
+	font-size: 18px;
+	font-weight: lighter;
+}
+h1, h2, h3 {
+	font-family: Bodoni Mota;
+}
+h1 {
+	color: #dee3e3;
+	font-size: 60px;
+	letter-spacing: 2px;
+}
+h2 {
+	color: #dee3e3;
+	font-size: 24px;
+	font-weight: revert-layer;
+}
+a {
+	text-decoration: none;
+	font-family: Fira Sans, static;
+	font-weight: 500;
+	color: #3F4099;
+}
+a:hover {
+	color: #3F4045;
+}
+.img-arrondie { 
+	border-radius: 10%;
+	width: 200px;
+	height: auto;
+}
+
+div {
+	background: #a4a7a4;
+	border: 2px solid #dee3e3;
+	margin: 15px;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0px 12px 20px #6e685e;
+}
+
+
+/* Custom design with class */
+
+.container {
+	width: 1000px;
+	margin: 20px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		max-width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		max-width: 400px;
+	}
+}
+
+
+
+.card-white {
+	padding: 20px;
+	box-shadow: 0px 12px 20px #6e685e;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: #3F4099;
+	color: #dee3e3;
+	padding: 12px 15px;
+	border-radius: 10px;
+}
+
+.btn-blue:hover {
+	background-color: #3F4045;
+	color: white;
+	padding: 15px 20px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 35px;
+	color: #3F4045;
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #3F4099;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
+
+
+
+
